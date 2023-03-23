@@ -4,7 +4,7 @@
 
 1.`npm install`
 
-1.`npm run dev`
+2.`npm run dev`
 
 **组件功能说明**
 
