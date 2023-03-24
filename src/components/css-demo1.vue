@@ -1,6 +1,6 @@
 <template>
     <div class="listbox">
-        <div v-for="(item, index) in list" :id="index + ''">
+        <div class="item" v-for="(item, index) in list" :id="index + ''">
             <div>{{ item.title }}</div>
             <div>{{ item.img }}</div>
         </div>
@@ -114,4 +114,11 @@ onMounted(() => {
     flex-direction: column-reverse;
     align-items: center;
 }
+/* 方式二：通过nth选择器选中规律元素*/
+/*.item:nth-of-type(4n-3),.item:nth-of-type(4n) {*/
+/*  background-color: #bfa;*/
+/*}*/
+/*.item:nth-of-type(4n-1),.item:nth-of-type(4n-2) {*/
+/*  background-color: #baf;*/
+/*}*/
 </style>
