@@ -4,6 +4,9 @@
             <div>{{ item.title }}</div>
             <div>{{ item.img }}</div>
         </div>
+        <div>
+            你好
+        </div>
     </div>
 </template>
 <script setup lang="ts">
