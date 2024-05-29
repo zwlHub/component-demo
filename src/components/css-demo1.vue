@@ -5,7 +5,7 @@
             <div>{{ item.img }}</div>
         </div>
         <div>
-            你好
+            我很好
         </div>
     </div>
 </template>
